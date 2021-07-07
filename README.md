@@ -1,3 +1,7 @@
+edit
+
+.prettierrc の参考 : https://bit.ly/34ZbHPx
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">

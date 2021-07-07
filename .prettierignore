@@ -2,3 +2,5 @@
 package.json
 package-lock.json
 public
+
+# 環境構築時からあるので一旦このまま
