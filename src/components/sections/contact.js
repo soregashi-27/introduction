@@ -5,13 +5,36 @@ const StyledContactSection = styled.section`
   max-width: 600px;
   margin: 0 auto 100px;
   text-align: center;
+
+  .overline {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--green); //FIX:global Styleを追加
+    font-weight: 400;
+
+    &:before {
+      bottom: 0;
+    }
+
+    &: after {
+      display: none;
+    }
+  }
+
+  .title {
+    font-size: clamp(40px, 5vw, 60px);
+  }
+
+  .email-link {
+    margin-top: 50px;
+  }
 `;
 
 const Contact = () => {
   return (
     <StyledContactSection>
-      <h2>What's Next?</h2>
-      <h2>Keep In Touch</h2>
+      <h2 className="nembered-heading overline">What's Next?</h2>
+      <h2 className="title">Keep In Touch</h2>
 
       <p>
         最後まで目を通していただきありがとうございます。
