@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import Contact from '../components/sections/contact';
 import Projects from '../components/sections/projects';
 import Portfolios from '../components/sections/portfolios';
+import Experience from '../components/sections/experience';
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
@@ -12,6 +13,7 @@ const StyledMainContainer = styled.main`
 const IndexPage = () => (
   <Layout>
     <StyledMainContainer>
+      <Experience />
       <Portfolios />
       <Projects />
       <Contact />
